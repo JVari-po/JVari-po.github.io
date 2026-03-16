@@ -2103,3 +2103,29 @@ figure figcaption {
   border-radius: 18px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.12);
 }
+.model-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.model-table th,
+.model-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.model-table th {
+  background: #dbeafe;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.model-table tr:hover {
+  background: #f8fafc;
+}

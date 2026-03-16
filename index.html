@@ -124,24 +124,58 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
           
-            <img src="" alt="Image of your project" class="img-fluid">
+            <img src="" alt="addlater" class="img-fluid">
           
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="project-card">
-              <h3>Project Title</h3>
+              <h3>Spotify Song Popularity Predictor</h3>
               <p>
-               Motivation of the project
+              Built a machine learning model to predict whether a song will become popular on Spotify
+              using audio features and metadata from over 580,000 tracks.
               </p>
               <p>
-              Functional requirements/what the project does
+              The dataset included features such as danceability, energy, tempo, loudness,
+              instrumentalness, valence, and release year. Songs were labeled as
+              <strong>popular</strong> if their Spotify popularity score was 60 or higher.
               </p>
               <p>
-              Project design
+                <ul>
+                <li>Analyzed a dataset of 580,000+ songs from Spotify</li>
+                <li>Engineered features such as release decade and encoded categorical metadata</li>
+                <li>Trained models including Logistic Regression, Random Forest, and XGBoost</li>
+                <li>Converted popularity score into a binary classification problem</li>
+                <li>Evaluated models using F1-score and ROC-AUC with Stratified K-Fold Cross Validation</li>
+                </ul>
               </p>
               <p>
-              Implementation
+              The best performing model achieved an F1-score of 0.81 when predicting song popularity.
               </p>
+              <h4>Model Performance</h4>
+
+              <table class="model-table">
+                <tr>
+                  <th>Model</th>
+                  <th>F1 Score</th>
+                  <th>ROC-AUC</th>
+                </tr>
+                <tr>
+                  <td>Logistic Regression</td>
+                  <td>0.68</td>
+                  <td>0.73</td>
+                </tr>
+                <tr>
+                  <td>Random Forest</td>
+                  <td>0.76</td>
+                  <td>0.81</td>
+                </tr>
+                <tr>
+                  <td>XGBoost</td>
+                  <td>0.81</td>
+                  <td>0.86</td>
+                </tr>
+              </table>
+              
 
 
             </div>
