@@ -2082,13 +2082,16 @@ figure figcaption {
     box-shadow: 0 18px 40px rgba(0,0,0,0.12);
   }
   
-  .btn {
+.btn {
     border-radius: 999px;
     padding: 12px 28px;
     font-weight: 600;
   }
   
-  .btn:hover {
+.btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(37,99,235,0.2);
+  }
+body {
+    background: hotpink !important;
   }
