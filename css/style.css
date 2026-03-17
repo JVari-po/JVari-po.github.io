@@ -2146,3 +2146,26 @@ figure figcaption {
 .side-img {
   text-align: center;
 }
+
+.project-spacer {
+  height: 80px;
+}
+
+#projects-section .row.align-items-center {
+  align-items: flex-start !important;
+}
+
+#projects-section .project-card {
+  height: auto;
+}
+
+#projects-section .side-img {
+  margin-bottom: 24px;
+}
+
+#projects-section .side-img img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
