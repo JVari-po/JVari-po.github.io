@@ -2129,3 +2129,20 @@ figure figcaption {
 .model-table tr:hover {
   background: #f8fafc;
 }
+
+.side-img img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.img-caption {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 8px;
+  text-align: center;
+}
+.side-img {
+  text-align: center;
+}
