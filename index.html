@@ -199,42 +199,47 @@
         <!-- LEFT SIDE (TEXT FIRST for variety) -->
         <div class="col-lg-5 mb-5" data-aos="fade-up">
           <div class="project-card">
-            <h3>Actor Graph Path Finder BFS & Dijkstra's</h3>
+            <h3>Elevator System Simulation</h3>
       
-            <p>
-              Developed a graph-based system to compute the shortest connection path between actors based on shared movie appearances. The system uses both unweighted (BFS) and weighted (Dijkstra's) shortest path algorithms.
-            </p>
-      
-            <ul>
-              <li>Constructed a graph with over thousands of actors and movies using adjacency lists</li>
-              <li>Implemented Breadth-First Search for unweighted shortest paths</li>
-              <li>Implemented Dijkstra’s algorithm using a priority queue for weighted paths</li>
-              <li>Designed a custom weighting function prioritizing more recent movie connections</li>
-              <li>Built an end to end pipeline to load data, compute paths, and output formatted results</li>
-            </ul>
-      
-            <p>
-              This project strengthened my understanding of graph algorithms, data structures, and real world system design in Java.
-            </p>
-          </div>
-        </div>
-      
-      
-        <div class="col-lg-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
-      
-          <div class="side-img">
-            <img src="images/your-image1.png" class="img-fluid">
-            <p class="img-caption">add</p>
-          </div>
-      
-          <div class="side-img mt-4">
-            <img src="images/your-image2.png" class="img-fluid">
-            <p class="img-caption">add</p>
-          </div>
-      
-        </div>
-      
-      </div>
+            p>
+        Built a Java-based elevator simulation that models how multiple elevator types respond to passenger requests over time.
+        The system supports standard, freight, penthouse, and express elevators, each with its own movement and service constraints.
+      </p>
+
+      <p>
+        The simulator processes calls round by round using either a simple scheduler or a complex scheduler. Each round,
+        the scheduler assigns calls, elevators update direction, move one floor at a time, and handle passenger pickup and drop-off.
+      </p>
+
+      <ul>
+        <li>Designed an object-oriented system using abstraction, inheritance, and polymorphism</li>
+        <li>Implemented multiple elevator types with unique service constraints</li>
+        <li>Built simple and complex scheduling strategies using a shared Scheduler interface</li>
+        <li>Read elevator calls from CSV files and simulated system behavior round by round</li>
+        <li>Wrote unit tests for schedulers, elevator behavior, and simulator logic using test-driven development</li>
+      </ul>
+
+      <p>
+        This project strengthened my understanding of object-oriented design, system simulation, Java testing, and building software that can be extended with new behaviors.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-lg-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="side-img">
+      <img src="./images/UMLFINAL.png" alt="Elevator system UML diagram" class="img-fluid">
+      <p class="img-caption">UML diagram showing the simulator, schedulers, elevator hierarchy, and call system</p>
+    </div>
+
+    <div class="side-img mt-4">
+      <img src="./images/ElevatorOutPut.png" alt="Elevator simulator output" class="img-fluid">
+      <p class="img-caption">Round by round simulation output showing elevator floor, direction, assigned calls, and occupancy</p>
+    </div>
+
+  </div>
+
+</div>
       
 
     </section>
