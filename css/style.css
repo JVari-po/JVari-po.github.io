@@ -2174,3 +2174,10 @@ figure figcaption {
   transform: scale(1.03);
   cursor: pointer;
 }
+
+.side-img img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
