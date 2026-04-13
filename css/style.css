@@ -2181,3 +2181,7 @@ figure figcaption {
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
+
+.project-spacer {
+  height: 80px;
+}
