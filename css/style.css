@@ -2163,32 +2163,24 @@ figure figcaption {
   margin-bottom: 24px;
 }
 
-#projects-section .side-img img {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin: 0 auto;
-}
-
 .clickable-img:hover {
   transform: scale(1.03);
   cursor: pointer;
 }
 
-.side-img img {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 12px;
-  transition: transform 0.3s ease;
-}
-
 .project-spacer {
   height: 80px;
 }
-
-.side-img img {
+#projects-section .side-img img {
   width: 100%;
-  max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 12px;
+}
+
+.uml-img {
+  background: white;
+  padding: 0;
+  object-fit: contain;
 }
